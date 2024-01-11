@@ -48,6 +48,115 @@ font-weight: 700;
 line-height: 125%; /* 32.5px */
 }
 
+/* navbar */
+.navbar {
+    height: auto;
+    padding: 10px 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .menu-item {
+    list-style: none;
+    padding: 0 50px;
+    border-right: 1px solid rgba(51, 51, 51, 0.1);
+    transition: 0.3s;
+}
+
+.navbar .menu-item:nth-child(5) {
+    border-right: none;
+}
+
+.navbar .menu-item a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 125%; /* 25px */
+}
+
+.navbar .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar .contact .social {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.navbar .schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.navbar .schedule p {
+    color: #333;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.navbar details {
+    color: #333;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: 'Proxima Nova', sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 125%;
+position: relative;
+width: fit-content;
+}
+
+.navbar summary {
+    list-style: none;
+    display: flex;
+}
+
+
+.navbar summary::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/chevron_down.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 7px;
+    transition: 0.3s;
+}
+
+.navbar details[open] > summary::after {
+    transform: rotate(180deg);
+}
+
+.navbar summary::-webkit-details-marker {
+    display: none;
+}
+
+.navbar details ul {
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+}
+/* End navbar */
 /* First-screen section */
 #first-screen .first-screen {
     height: 856px;
@@ -55,7 +164,7 @@ line-height: 125%; /* 32.5px */
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background-image: url(./img/Rectangle141.png);
+    /* background-image: url(./img/Rectangle141.png); */
     position: relative;
 }
 

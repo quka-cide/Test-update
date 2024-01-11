@@ -8,6 +8,35 @@
     <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="logo"><img src="./img/nav-logo.png" alt="logo"></div>
+        <div class="menu">
+            <ul class="menu-items">
+                <li class="menu-item"><a href="#second-screen">Чому ми?</a></li>
+                <li class="menu-item"><a href="#partners">Партнери</a></li>
+                <li class="menu-item"><a href="#charity">Благодійність</a></li>
+                <li class="menu-item"><a href="#card">Про нас</a></li>
+                <li class="menu-item"><a href="#drupal">Drupal</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <div class="social">
+                <a href="https://www.instagram.com/"><img src="./img/facebook.png" alt="facebook"></a>
+                <a href=""><img src="./img/instagram.png" alt="instagram"></a>
+                <a href=""><img src="./img/viber.png" alt="viber"></a>
+            </div>
+            <div class="schedule">
+                <p>Пн-Пт з 10 до 18</p>
+                <details>
+                    <summary>0 (800) 759-759</summary>
+                    <ul>
+                        <li>0 (800) 759-759</li>
+                        <li>0 (800) 759-759</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+    </nav>
     <section id="first-screen">
         <div class="first-screen">
             <div class="first-screen__col-left">
@@ -192,7 +221,7 @@
                 </div>   
               </section>
             <!-- End swiper -->
-            <h3 class="title">Наш вклад в Drupal</h3>
+            <h3 id="drupal" class="title">Наш вклад в Drupal</h3>
             <div class="cards-container">
                 <div class="card-item">
                     <img src="./img/logo_0 (2) 1.svg" alt="">
@@ -227,7 +256,7 @@
                         <img src="./img/Arrow.png" alt="">
                     </button>
               </div>
-                <div class="splide__track">
+                <div id="partners" class="splide__track">
                       <ul class="splide__list">
                           <li class="splide__slide"><img src="./img/toyota.svg" alt=""></li>
                           <li class="splide__slide"><img src="./img/bravo.svg" alt=""></li>
@@ -239,7 +268,7 @@
                 </div>   
               </section>
          <!-- End second-swiper -->
-         <div class="charity">
+         <div id="charity" class="charity">
             <div class="vector"><img src="./img/Vector10.svg" alt=""></div>
             <div class="col-left">
              <h3>Благодійність</h3>
@@ -255,7 +284,7 @@
              </div>
             </div>
         </div>
-        <div class="charity-cards">
+        <div id="card" class="charity-cards">
             <div class="cards-items">
                 <div class="card-item">
                     <img src="./img/svg-gobbler1.png" alt="">
