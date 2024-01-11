@@ -1,0 +1,1028 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFF;
+}
+
+h3 {
+    color: var(--Black, #333);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 125%; /* 55px */
+}
+
+h4 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 125%; /* 47.5px */
+}
+
+h5 {
+    color: var(--Black, #333);
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+}
+
+h6 {
+font-family:'Proxima Nova', sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 32.5px */
+}
+
+/* First-screen section */
+#first-screen .first-screen {
+    height: 856px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url(./img/Rectangle141.png);
+    position: relative;
+}
+
+#first-screen .first-screen__col-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+
+#first-screen .first-screen__headline {
+    color: var(#333);
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%; 
+}
+
+#first-screen .first-screen__title {
+    color: #333;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 110%; /* 99px */
+    margin-bottom: 20px;
+    font-variant-numeric: lining-nums proportional-nums;
+    z-index: 1;
+
+}
+
+#first-screen .first-screen__btn {
+    display: flex;
+    padding: 20px 82px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(134deg, #FFDF00 -7.01%, #FFB800 109.07%);
+    color: var(#333);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 125%; /* 25px */
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+#first-screen .first-screen__btn:hover {
+    color: #FFF;
+    background: #0289D7;
+}
+
+#first-screen .first-screen__circles {
+    position: absolute;
+    bottom: 116px;
+    left: 0;
+    margin-left: 75px;
+}
+
+#first-screen .first-screen__btn2 {
+    position: absolute;
+    top: 85%;
+    right: 50%; 
+}
+
+#first-screen .btn2 {
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    max-height: 150px;
+    text-align: center;
+    transition: 0.5s;
+    text-wrap: nowrap;
+    background: transparent;
+    border: none;
+    color: #333;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 125%; /* 17.5px */
+    position: relative;
+}
+
+#first-screen .btn2 img {
+    transition: 0.5s;
+}
+
+
+#first-screen .btn2 img:hover {
+    margin-top: 10px;
+}
+
+#first-screen .first-screen__image {
+    position: absolute;
+    right: 0;
+    top: 130px;
+    z-index: 1;
+}
+
+#first-screen .first-screen__image-item {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: 0;
+}
+
+#first-screen .first-screen__circle1 {
+    position: absolute;
+    left: 0;
+    top: auto;
+    z-index: 0;
+}
+
+#first-screen .first-screen__circle2 {
+    position: absolute;
+    left: 596px;
+    bottom: 208px;
+    z-index: 0;
+}
+
+#first-screen .first-screen__circle3 {
+    position: absolute;
+    top: 33px;
+    right: 637px;
+    z-index: 0;
+}
+
+#first-screen .first-screen__circle4 {
+    position: absolute;
+    right: 795px;
+    bottom: 312px;
+    z-index: 0;
+}
+
+#first-screen .test-check { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#first-screen .test-check .col-left {
+    margin-top: 100px;
+    margin-left: 75px;
+    margin-bottom: 100px;
+}
+
+#first-screen .test-check h3 {
+    color: #333;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 125%;
+    margin-bottom: 50px;
+}
+
+#first-screen .test-check .col-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 37px;
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+#first-screen .test-check p {
+    color: #333;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+#first-screen .test-check h6 {
+    color: var(--Black, #333);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+}
+
+/* End First-screen section */
+/* second-screen section */
+#second-screen .second-screen {
+    display: flex;
+    flex-direction: column;
+    height: 527px;
+    width: 100%;
+    background: linear-gradient(134deg, #FFDF00 -7.01%, #FFB800 109.07%), #FFFEFC;
+    z-index: -1;
+    position: relative;
+}
+
+#second-screen .col-left .title {
+    color: #333;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 125%; /* 55px */
+    padding-top: 50px;
+    margin-left: 75px;
+}
+
+#second-screen .col-left .text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+#second-screen .col-left .text h6 {
+    color: #333;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 32.5px */
+}
+
+#second-screen .col-left .text p {
+    color: var(--Black, #333);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+#second-screen .col-left .logo {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 28px;
+    position: relative;
+}
+
+#second-screen .col-left .logo img:nth-child(1) {
+    width: 105px;
+    height: 65px;
+}
+#second-screen .col-left .logo img:nth-child(2) {
+    width: 219px;
+    height: 65px;
+}
+#second-screen .col-left .logo img:nth-child(3) {
+    width: 206px;
+    height: 33px;
+}
+
+#second-screen .col-right {
+    position: absolute;
+    top: 50px;
+    right: 139px;
+}
+/* End second-screen section */
+/* we-have section */
+.we-have {
+    background: #FFFEFB;
+    width: 1920px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.we-have .we-have__title {
+    color: var(--Black, #333);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 125%; /* 55px */
+    margin-top: 100px;
+    margin-left: 75px;
+    text-wrap: nowrap;
+    align-self: flex-start;
+}
+.we-have .we-have__items {
+    min-height: 850px;
+}
+.we-have .we-have__item {
+    display: flex;
+    flex-direction: row;
+}
+
+.we-have .we-have__item .text-align {
+    text-align: left;
+}
+
+.we-have .flex {
+    display: flex;
+    flex-direction: row-reverse;
+} 
+
+.we-have .flex .margin {
+    margin-right: 20px;
+} 
+
+.we-have .h6-headline {
+    color: var(--Black, #333);
+    text-align: right;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 125%; /* 25px */
+    margin-bottom: 10px;
+}
+
+.we-have .text {
+    color: var(--Black, #333);
+    text-align: right;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%; /* 20px */
+    width: 505px;
+}
+
+.we-have .bold {
+    color: var(--Black, #333);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.we-have .we-have__img-group {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(134deg, #FFDF00 -7.01%, #FFB800 109.07%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 14px;
+    z-index: 2;
+}
+
+.we-have .item1 {
+    position: absolute;
+    top: 205px;
+    left: 226px;
+}
+.we-have .item2 {
+    position: absolute;
+    top: 361px;
+    left: 93px;
+}
+.we-have .item3 {
+    position: absolute;
+    top: 507px;
+    left: 75px;
+}
+.we-have .item4 {
+    position: absolute;
+    top: 649px;
+    left: 108px;
+}
+.we-have .item5 {
+    position: absolute;
+    top: 794px;
+    left: 226px;
+}
+.we-have .item6 {
+    position: absolute;
+    top: 212px;
+    right: 227px;
+}
+.we-have .item7 {
+    position: absolute;
+    top: 360px;
+    right: 94px;
+}
+.we-have .item8 {
+    position: absolute;
+    top: 507px;
+    right: 75px;
+}
+.we-have .item9 {
+    position: absolute;
+    top: 650px;
+    right: 94px;
+}
+.we-have .item10 {
+    position: absolute;
+    top: 805px;
+    right: 240px;
+}
+
+/* .we-have .logo {
+    position: relative;
+} */
+
+.we-have .mainlogo {
+    position: absolute;
+    top: 487px;
+    left: 893px;
+}
+
+.we-have .halfcircle {
+    position: absolute;
+    top: 370px;
+    left: 775px;
+}
+
+.we-have .secondhalfcircle {
+    position: absolute;
+    top: 370px;
+    right: 775px;
+}
+
+.we-have .halfline {
+    position: absolute;
+    top: 339px;
+    left: 743px;
+}
+
+.we-have .secondhalfline {
+    position: absolute;
+    top: 339px;
+    right: 743px;
+}
+
+.we-have .litle-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(134deg, #FFDF00 -7.01%, #FFB800 109.07%), linear-gradient(135deg, #E991FC 14.6%, #7533D8 90.07%);
+    opacity: 0.3;
+    z-index: 2;
+}
+
+.we-have .circle1 {
+    position: absolute;
+    top: 378px;
+    left: 817px;
+}
+.we-have .circle2 {
+    position: absolute;
+    top: 448px;
+    left: 759px;
+}
+.we-have .circle3 {
+    position: absolute;
+    top: 547px;
+    left: 733px;
+}
+.we-have .circle4 {
+    position: absolute;
+    top: 639px;
+    left: 754px;
+}
+.we-have .circle5 {
+    position: absolute;
+    top: 717px;
+    left: 817px;
+}
+.we-have .circle6 {
+    position: absolute;
+    top: 378px;
+    right: 817px;
+}
+.we-have .circle7 {
+    position: absolute;
+    top: 448px;
+    right: 758px;
+}
+.we-have .circle8 {
+    position: absolute;
+    top: 550px;
+    right: 735px;
+}
+.we-have .circle9 {
+    position: absolute;
+    top: 639px;
+    right: 757px;
+}
+.we-have .circle10 {
+    position: absolute;
+    top: 717px;
+    right: 817px;
+}
+
+.we-have .line {
+    width: 135px;
+    height: 2px;
+    background-image: linear-gradient(to right, #F5F5F5, #FFF);
+    border: none;
+    z-index: 1;
+}
+
+.we-have .line1 {
+    position: absolute;
+    top: 323px;
+    left: 740px;
+    transform: rotate(74deg); 
+}
+.we-have .line2 {
+    position: absolute;
+    top: 435px;
+    left: 653px;
+    transform: rotate(20deg);
+    width: 120px;
+    
+}
+.we-have .line3 {
+    position: absolute;
+    top: 558px;
+    left: 627px;
+    transform: rotate(0deg);
+    width: 118px;
+}
+.we-have .line4 {
+    position: absolute;
+    top: 675px;
+    left: 666px;
+    transform: rotate(-30deg);
+    width: 107px;
+}
+.we-have .line5 {
+    position: absolute;
+    top: 785px;
+    left: 750px;
+    transform: rotate(-75deg);
+    width: 124px;
+}
+.we-have .line6 {
+    position: absolute;
+    top: 325px;
+    right: 747px;
+    transform: rotate(107deg);
+    width: 125px;
+}
+.we-have .line7 {
+    position: absolute;
+    top: 437px;
+    right: 660px;
+    transform: rotate(160deg);
+    width: 110px;
+}
+.we-have .line8 {
+    position: absolute;
+    top: 557px;
+    right: 635px;
+    transform: rotate(180deg);
+    width: 110px;
+}
+.we-have .line9 {
+    position: absolute;
+    top: 675px;
+    right: 653px;
+    transform: rotate(207deg);
+    width: 120px;
+}
+.we-have .line10 {
+    position: absolute;
+    top: 790px;
+    right: 755px;
+    transform: rotate(-100deg);
+    width: 124px;
+}
+
+.we-have .vectorNearSlider {
+    position: absolute;
+    top: 710px;
+    right: 0;
+}
+/* swiper */
+.splide {
+    margin: 0 auto; 
+    margin-top: 50px;
+    width: 1770px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.splide__slide {
+    width: 432px;
+    height: 288px;
+}
+
+.splide__arrows .splide__arrow {
+    width: 56px;
+    height: 53px;
+    border-radius: 0;
+    opacity: 1;
+    background: #F4F4F4;
+    transition: 0.3s;
+}
+
+.splide__arrows .splide__arrow:hover {
+    background: #FFE30B;
+}
+
+.splide__arrows .splide__arrow--prev {
+    position: absolute;
+    left: -28px;   
+}
+
+.splide__arrows .splide__arrow--prev img {
+    transform: rotate(90deg);
+}
+
+.splide__arrows .splide__arrow--next {
+    position: absolute;
+    right: -28px;
+}
+
+.splide__arrows .splide__arrow--next img {
+    transform: rotate(-90deg);
+}
+/* End swiper */
+/* Cards */
+.we-have .title {
+    color: var(--Black, #333);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 125%; /* 55px */
+    margin-left: 75px;
+}
+.we-have .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 75px 0 75px;
+}
+
+.we-have .card-item {
+    border-radius: 10px;
+    border: 2px solid rgba(69, 77, 82, 0.05);
+    background: #FFF;
+    padding: 20px 30px 30px 30px;
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    transition: 0.3s;
+}
+
+.we-have .card-item .circle-animation {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 215px;
+    border-radius: 12rem 0 0 12rem;
+    opacity: 0.1;
+    background: linear-gradient(134deg, #FFDF00 -7.01%, #FFB800 109.07%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.we-have .circle-animation:hover {
+    width: 100%;
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+.we-have .card-item img {
+    margin-bottom: 15px;
+}
+
+.we-have .card-item .strong {
+    color: #333;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 125%;
+    margin-bottom: 15px;
+}
+
+.we-have .card-item p {
+    color: #333;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%; /* 20px */
+    text-align: left;
+}
+/* End Cards */
+
+.we-have .title-margin {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#secondSwiper .splide {
+    margin-bottom: 0;
+}
+
+#secondSwiper .splide__slide {
+    display: flex;
+    width: 270px;
+    height: 147px;
+    padding: 0 19px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.charity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.charity .vector {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.charity h3 {
+    margin-left: 75px;
+    margin-bottom: 75px;
+}
+
+.charity h5 {
+    margin-left: 75px;
+    margin-bottom: 10px;
+    width: 749px;
+}
+
+.charity p {
+    color: var(--Black, #333);
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-left: 75px;
+    width: 749px;
+}
+
+.charity .img-container {
+    display: flex;
+    position: relative;
+    margin-right: 75px;
+}
+
+.charity .img-container img {
+    border-radius: 5px;
+}
+
+.charity .img-container img:nth-child(3) {
+    justify-self: flex-end;
+    align-self: flex-start;
+    
+}
+
+.charity .img-container img:nth-child(1) {
+    position: absolute;
+    top: 75px;
+    left: -360px;
+}
+
+.charity .img-container img:nth-child(2) {
+    position: absolute;
+    top: 187px;
+    left: 40px;
+}
+
+.charity-cards .cards-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-top: 164px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.charity-cards .card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.charity-cards .card-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.charity-cards .card-item p {
+    color: var(--Black, #333);
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.charity-cards .card-item:hover {
+    cursor: pointer;
+    background: #FFD00E;
+}
+/* End we-have section */
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.footer .footer-text {
+    color: var(--Black, #333);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: 'Proxima Nova', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 125%; /* 20px */
+margin-top: 30px;
+margin-bottom: 70px;
+}
+
+.footer h4 {
+font-family: 'Proxima Nova', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 30px */
+}
+
+.footer .col-left {
+    padding: 40px 30px 55px 75px;
+    background: #FFD00E;
+    width: 27%;
+    height: auto;
+    z-index: 1;
+}
+
+.footer .col-left p {
+    width: 420px;
+}
+
+.footer .col-right {
+    padding: 50px 0 0 120px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    width: 73%;
+}
+
+.footer .col {}
+
+.footer .col h4 {
+    margin-bottom: 30px;
+}
+
+.footer .col-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .footer .col-one h4 {
+    margin-bottom: 30px;
+} */
+
+.footer .col-one .number {
+font-size: 24px;
+font-weight: 400;
+line-height: 125%;
+text-wrap: nowrap;
+margin-bottom: 20px;
+}
+
+.footer .col-one .bold-num {
+font-family: 'Century Gothic';
+font-size: 24px;
+font-weight: 700;
+line-height: 125%;
+text-transform: uppercase;
+}
+
+.footer .col-one .adrress {
+font-family: 'Proxima Nova', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
+
+.footer .col-one .thin-text {
+    font-weight: 400;
+}
+
+.footer .col-two h4:nth-child(2) span {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.footer .col-two h4:nth-child(2) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-bottom: 20px;
+}
+
+.footer .col-two p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer .underline {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.footer .col-three h4 {
+    margin-bottom: 10px;
+}
+
+.footer .col-three .first-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .col-three img:nth-child(1) {
+    width: 95px;
+    height: 60px;
+    margin-right: 15px;
+    margin-bottom: 23px;
+}
+
+.footer .col-three .footer__logo3 {
+}
+/* End footer */
